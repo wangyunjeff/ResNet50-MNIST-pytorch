@@ -8,9 +8,10 @@ import torchvision
 import cv2
 import time
 
-Batch_Size = int(input('每次预测手写字体图片个数：'))
-PATH = '.\logs\Epoch56-Total_Loss1.524914978290326e-06_99.63%.pth'
 
+PATH = './logs/resnet50-mnist.pth'
+
+Batch_Size = int(input('每次预测手写字体图片个数：'))
 model = ResNet(Bottleneck, [3, 4, 6, 3], num_classes=10)
 model.load_state_dict(torch.load(PATH))
 model = model.cuda()

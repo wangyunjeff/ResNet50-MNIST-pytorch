@@ -5,7 +5,7 @@ from torchvision import datasets, transforms
 from torch.utils.data import DataLoader
 from torch.autograd import Variable
 
-Batch_size=128
+Batch_size = 128
 
 root = '.\logs'
 file_dir = os.listdir(root)
