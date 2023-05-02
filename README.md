@@ -11,8 +11,9 @@ torch==1.7.1
 ## a.模型文件下载
 训练所需的resnet50_mnist.pth可以在百度云或google drive下载。
 **百度云链接：**
-链接: [https://pan.baidu.com/s/1RQ6iUgIdxIsnTk3FncLT4Q](https://pan.baidu.com/s/1RQ6iUgIdxIsnTk3FncLT4Q)
-提取码: 5unq 
+链接：https://pan.baidu.com/s/1apl5kspxGvjg4y6hLjSktQ?pwd=4mlv 
+提取码：4mlv
+
 **google drive 链接：**
 [https://drive.google.com/file/d/1rFNsKgbUWKfp533Znsu0Jwz3XhQSxksM/view?usp=sharing](https://drive.google.com/file/d/1rFNsKgbUWKfp533Znsu0Jwz3XhQSxksM/view?usp=sharing)
 ## b.MNIST数据集下载
